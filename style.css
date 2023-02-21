@@ -1,0 +1,89 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    font-family: Arvo;
+    background: url(images/notebook.jpg) no-repeat 100%;
+    background-attachment:fixed;
+    background-size:cover;
+    
+}
+.active{
+    color: black;
+}
+.navbar{
+    font-family: Arvo, serif;
+    background-color: rgba(98, 170, 207, 0.7);
+}
+.navbar-brand{
+    color: white;
+}
+.navbar .navbar-toggler{
+/*   color: rgba(255,255,255,.55);*/
+    border: 2px solid white;
+}
+.nav-item a{
+    font-size: 1em;
+    color: white;
+}
+#navbarSupportedContent ul li a:hover{
+    color: white;
+}
+#navbarSupportedContent .b{
+    color: rgba(255,255,255,.55);
+    text-decoration: none;
+}
+#navbarSupportedContent .b:hover{
+    color:black;
+    text-decoration: none;
+}
+#login{
+    background-color: #2076ad;
+    color: white;
+}
+.jumbotron{
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    letter-spacing: 2.5px;
+    font-family: Arvo, serif;
+    color: white;
+    margin-top: 150px;
+    padding: 10px;
+}
+.modal{
+    font-family: Arvo, serif;
+}
+#forgotPassword{
+    float: right;
+    text-decoration: none;
+}
+.checkbox{
+    padding: 14px;
+}
+#register{
+    position: absolute;
+    left: 13px;
+    border: 1px solid black;
+}
+.footer{
+    color:white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(98, 170, 207, 0.7);
+     padding-top: 10px;
+    font-family: Arvo, serif;
+}
+ /*buttons*/
+.jumbotron .signup{
+    margin-top: 50px;
+    font-size: 1em;
+    color: white;
+    background-color: rgba(10, 134, 25, 0.55);
+}
+.jumbotron .signup:hover{
+    background-color: rgba(10, 134, 25, 0.8);
+    color: white;
+}
